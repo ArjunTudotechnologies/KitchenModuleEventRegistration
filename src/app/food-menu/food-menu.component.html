@@ -1,0 +1,11 @@
+<div class="container">
+
+  <div class="row row-cols-2">
+    <app-menuitem
+      *ngFor="let curd of cheeseCurds"
+      [variant]="curd.variant"
+      [title]="curd.title"
+      [description]="curd.description"
+    ></app-menuitem>
+  </div>
+</div>

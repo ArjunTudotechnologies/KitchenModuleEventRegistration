@@ -1,0 +1,74 @@
+.p-button {
+  width: 128px !important;
+  height: 36px !important;
+  padding: 8px 16px !important;
+  gap: 10px !important;
+  border-radius: 2px !important;
+  border: 1px solid transparent !important;
+  border-width: 1px 0 0 0 !important;
+  background-color: #0da487 !important;
+  background: #0da487 !important;
+  color: #fff !important;
+  font-family: 'Geist' !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  text-align: center !important;
+}
+.eventcreate{
+font-family: 'Geist';
+font-size: 20px;
+font-weight: 500;
+text-align: left;
+color: #3B3B3B;
+
+}
+ul{
+  padding-left: 0.5rem !important;
+}
+.p-stepper .p-stepper-header:has(~ .p-highlight) .p-stepper-separator {
+  background-color: #0da487;
+}
+.p-stepper .p-stepper-header.p-highlight .p-stepper-number {
+  background: #eff6ff;
+  color: #0da487;
+  border: 1px solid #0da487;
+}
+.p-button {
+  color: #ffffff;
+  background: #0da487 !important;
+  border: 1px solid transparent !important;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 6px;
+  outline-color: transparent;
+}
+.back-btn button{
+  background-color: transparent !important;
+  color: #0da487 !important;
+  border: 1px solid #0da487 !important;
+}
+.sec-tittle {
+  margin: 0px;
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: #3b3b3b;
+}
+
+.p-stepper .p-stepper-header .p-stepper-action .p-stepper-title {
+  font-family: "Geist";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: rgba(59, 59, 59, 0.45);
+}
+
+.p-stepper .p-stepper-header.p-highlight .p-stepper-title {
+  color: rgba(59, 59, 59, 1);
+}

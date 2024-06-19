@@ -1,0 +1,25 @@
+<div class="menuitem">
+  <div class="d-flex justify-content-between">
+    <div>
+      <div class="d-flex  align-items-center">
+        <div style="width: 10px; height: 10px;" class="rounded-circle bg-green">
+
+        </div>
+        <div class="ms-2">
+          <span class="title">{{ title }}</span>
+        </div>
+      </div>
+      <div>
+        <span class="subheader">{{ variant }}</span>
+      </div>
+    </div>
+    <div (click)="showDialog()">
+      <img src="/round-plus.png" alt="Example Image" />
+    </div>
+  </div>
+  <div>
+    <span class="description">
+      {{ description }}
+    </span>
+  </div>
+</div>

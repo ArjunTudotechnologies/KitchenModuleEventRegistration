@@ -1,0 +1,45 @@
+.event-details {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 724px;
+    font-family: 'Geist', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .header .edit {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .header .edit:hover {
+    text-decoration: underline;
+  }
+  
+  .detail {
+
+    width: 50%;
+  }
+  
+  .detail .label {
+    font-weight: bold;
+  }
+  
+  .detail .value {
+    font-weight: normal;
+  }
+  
+  .detail .link {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .detail .link:hover {
+    text-decoration: underline;
+  }
+  

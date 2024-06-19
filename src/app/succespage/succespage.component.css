@@ -1,0 +1,59 @@
+
+@font-face { 
+    font-family: "Geist";
+    src: url("/fonts/Geist-Regular.otf") format("opentype"),
+         url("/fonts/Geist-Black.otf") format("opentype"),
+         url("/fonts/Geist-Bold.otf") format("opentype"),
+         url("/fonts/Geist-Light.otf") format("opentype"),
+         url("/fonts/Geist-Medium.otf") format("opentype"),
+         url("/fonts/Geist-SemiBold.otf") format("opentype"),
+         url("/fonts/Geist-Thin.otf") format("opentype"),
+         url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+         url("/fonts/Geist-UltraLight.otf") format("opentype");
+   }
+.container {
+  text-align: center;
+}
+
+.title {
+  font-family: "Geist";
+  font-size: 52px;
+  font-weight: 126;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.message {
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.contact {
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.phone {
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #2930f4;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}

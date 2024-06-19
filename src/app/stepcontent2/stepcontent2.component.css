@@ -1,0 +1,65 @@
+@font-face { 
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+       url("/fonts/Geist-Black.otf") format("opentype"),
+       url("/fonts/Geist-Bold.otf") format("opentype"),
+       url("/fonts/Geist-Light.otf") format("opentype"),
+       url("/fonts/Geist-Medium.otf") format("opentype"),
+       url("/fonts/Geist-SemiBold.otf") format("opentype"),
+       url("/fonts/Geist-Thin.otf") format("opentype"),
+       url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+       url("/fonts/Geist-UltraLight.otf") format("opentype");
+ }
+.create-event-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.orderwrapper {
+  width: 378px;
+height: fit-content;
+  padding: 16px;
+  gap: 10px;
+  border:1px;
+  box-shadow: -6px 7px 17.8px 0px #9b9b9b12;
+}
+.item-header{
+font-family: 'Geist';
+font-size: 16px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+color: #3B3B3B;
+
+}
+.other-class {
+  border: none;
+  padding: 6px 12px 6px 12px;
+  background-color: #ffffff;
+  font-family: "Geist";
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 16px;
+  text-align: left;
+  color: #3B3B3B;
+  
+}
+.event-btn {
+  width: 95px;
+  height: 28px;
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #0da487;
+  border: none;
+  font-family: "Geist";
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}

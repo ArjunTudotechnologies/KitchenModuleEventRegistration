@@ -1,0 +1,65 @@
+@font-face { 
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+       url("/fonts/Geist-Black.otf") format("opentype"),
+       url("/fonts/Geist-Bold.otf") format("opentype"),
+       url("/fonts/Geist-Light.otf") format("opentype"),
+       url("/fonts/Geist-Medium.otf") format("opentype"),
+       url("/fonts/Geist-SemiBold.otf") format("opentype"),
+       url("/fonts/Geist-Thin.otf") format("opentype"),
+       url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+       url("/fonts/Geist-UltraLight.otf") format("opentype");
+ }
+.calenderIcon {
+  position: absolute;
+  right: 5px;
+  bottom: 15px;
+  margin: auto;
+}
+.p-inputtext {
+  background-color: #f4f4f4;
+  background: #f4f4f4;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+.p-inputtext::placeholder {
+  color: #3B3B3B73;
+  font-family: "Geist", sans-serif;
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 16px;
+  text-align: left;
+}
+#time {
+  width: 290px;
+}
+.p-calendar {
+  width: 290px;
+}
+label {
+  font-family: "Geist";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #3b3b3b;
+}
+label span{
+  font-family: "Geist";
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  color: #3B3B3B73;
+  
+}
+.title{
+    font-family: "Geist";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: #3b3b3b;
+}
+#Name{
+width: 190px;
+}

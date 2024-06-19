@@ -1,0 +1,63 @@
+@font-face { 
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+       url("/fonts/Geist-Black.otf") format("opentype"),
+       url("/fonts/Geist-Bold.otf") format("opentype"),
+       url("/fonts/Geist-Light.otf") format("opentype"),
+       url("/fonts/Geist-Medium.otf") format("opentype"),
+       url("/fonts/Geist-SemiBold.otf") format("opentype"),
+       url("/fonts/Geist-Thin.otf") format("opentype"),
+       url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+       url("/fonts/Geist-UltraLight.otf") format("opentype");
+ }
+.footer-container {
+  background-color: rgba(13, 164, 135, 1);
+}
+.footer-sectionTitle{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.footer-sectionTitle h5 {
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.52px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin: 0px;
+}
+.footer-wrapp-section {
+  padding: 80px 0px 51px 0px;
+}
+.footer-section p,
+.footer-section address {
+  font-family: 'Geist';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+  color: rgba(255, 255, 255, 0.5);
+  }
+
+  .footer-section{
+    width: 500px;
+  }
+.footer-section i {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-section h5 {
+    font-size: 1rem;
+  }
+
+  .footer-section p,
+  .footer-section address {
+    font-size: 0.875rem;
+  }
+}

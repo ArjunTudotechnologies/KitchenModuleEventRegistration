@@ -1,0 +1,51 @@
+@font-face { 
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+       url("/fonts/Geist-Black.otf") format("opentype"),
+       url("/fonts/Geist-Bold.otf") format("opentype"),
+       url("/fonts/Geist-Light.otf") format("opentype"),
+       url("/fonts/Geist-Medium.otf") format("opentype"),
+       url("/fonts/Geist-SemiBold.otf") format("opentype"),
+       url("/fonts/Geist-Thin.otf") format("opentype"),
+       url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+       url("/fonts/Geist-UltraLight.otf") format("opentype");
+ }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.13);
+
+}
+
+.logo h2 {
+  font-family: "Geist";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+  margin: 0px;
+  color: rgba(13, 164, 135, 1);
+}
+
+.contact-info .key {
+  font-family: "Geist";
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 15px;
+  text-align: left;
+  color: rgba(59, 59, 59, 1);
+}
+
+.contact-info .value {
+  font-family: "Geist";
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 15px;
+  text-align: left;
+
+  color: rgba(28, 28, 28, 1);
+}

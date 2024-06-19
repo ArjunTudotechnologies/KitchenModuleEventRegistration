@@ -1,0 +1,52 @@
+.cheese-curds-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.title {
+  font-family: "Geist";
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 16px;
+  text-align: left;
+}
+
+.subheader {
+font-family: 'Geist';
+font-size: 12px;
+font-weight: 84;
+line-height: 16px;
+text-align: left;
+color: #3B3B3B73;
+
+}
+mat-card {
+  width: 100%;
+}
+.bg-green {
+  background-color: #0da487;
+}
+mat-card-title {
+  font-weight: bold;
+}
+
+mat-card-subtitle {
+  color: gray;
+}
+
+mat-card-content p {
+  margin: 0;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.color-inc-dec {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  height: 28px;
+  width: 84px;
+}

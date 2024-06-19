@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+    url("/fonts/Geist-Black.otf") format("opentype"),
+    url("/fonts/Geist-Bold.otf") format("opentype"),
+    url("/fonts/Geist-Light.otf") format("opentype"),
+    url("/fonts/Geist-Medium.otf") format("opentype"),
+    url("/fonts/Geist-SemiBold.otf") format("opentype"),
+    url("/fonts/Geist-Thin.otf") format("opentype"),
+    url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+    url("/fonts/Geist-UltraLight.otf") format("opentype");
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  border-color: rgba(13, 164, 135, 1);
+  background: rgba(13, 164, 135, 1);
+  color: #ffffff;
+  outline-color: rgba(13, 164, 134, 0.525);
+  box-shadow: 0 0 0 0.2rem rgba(13, 164, 134, 0.298);
+}
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0rem #bfdbfe;
+  border-color: rgba(13, 164, 134, 0.298);
+}
+.p-checkbox .p-checkbox-box.p-highlight {
+  border-color: rgba(13, 164, 135, 1);
+  background: rgba(13, 164, 135, 1);
+  outline-color: rgba(13, 164, 135, 1);
+  box-shadow: 0 0 0 0.2rem rgba(13, 164, 134, 0.298);
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  border-color: rgba(13, 164, 135, 1);
+  outline-color: rgba(13, 164, 135, 1);
+  box-shadow: 0 0 0 0.2rem rgba(13, 164, 134, 0.298);
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem #bfdbfe;
+  border-color: rgba(13, 164, 135, 1);
+  outline-color: rgba(13, 164, 135, 1);
+  box-shadow: 0 0 0 0.2rem rgba(13, 164, 134, 0.298);
+}
+.p-dialog-header-icons .p-button {
+  background: none !important;
+  color: white !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  outline: none !important;
+  border: none !important;
+}
+.p-dialog .p-dialog-header {
+  padding: 1rem 1.5rem 0.5rem 1.5rem !important;
+}
+.p-dialog .p-dialog-header .p-dialog-title {
+  font-family: "Geist";
+  font-size: 18px;
+  font-weight: 84;
+  line-height: 15px;
+  text-align: left;
+  color: #3b3b3b;
+}
+.p-dialog-header-close-icon {
+  background-color: #818181;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  padding: 4px;
+}
+.title {
+  font-family: "Geist";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #3b3b3b;
+  padding: 15px 1px 15px 0px;
+  margin: 0px;
+}

@@ -1,0 +1,74 @@
+@font-face { 
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype"),
+       url("/fonts/Geist-Black.otf") format("opentype"),
+       url("/fonts/Geist-Bold.otf") format("opentype"),
+       url("/fonts/Geist-Light.otf") format("opentype"),
+       url("/fonts/Geist-Medium.otf") format("opentype"),
+       url("/fonts/Geist-SemiBold.otf") format("opentype"),
+       url("/fonts/Geist-Thin.otf") format("opentype"),
+       url("/fonts/Geist-UltraBlack.otf") format("opentype"),
+       url("/fonts/Geist-UltraLight.otf") format("opentype");
+ }
+.container {
+  font-family: 'Geist', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px 80px 0px;
+  align-items: center;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-family: "Geist";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  color: rgba(59, 59, 59, 1);
+}
+
+.text-section p {
+  font-family: "Geist";
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 23px;
+  text-align: left;
+  color: rgba(59, 59, 59, 1);
+}
+
+.create-event-btn {
+  color: rgba(255, 255, 255, 1);
+
+  background-color: rgba(13, 164, 135, 1);
+
+  width: 149px;
+  height: 36px;
+  padding: 8px 16px -1px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.create-event-btn:hover {
+  background-color: #218838;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.banner-image {
+  width: 430px;
+  height: 423px;
+  background-image: url("../Assets/Banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
